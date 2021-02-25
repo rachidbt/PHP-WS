@@ -24,17 +24,6 @@ try{
     echo "id => " .$json_result["id"]."\n";
     echo "type => " .$json_result["type"]."\n";
     echo "uri => " .$json_result["uri"]."\n";
-
-
-
-
-
-
-
-
-
-
-
 }
 catch (Exception $e) {
     echo "S'ha capturat l'excepció: " . $e->getMessage() . "<br>";
